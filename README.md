@@ -3,7 +3,7 @@
 Using this class, one can doserialization and deserialization just by using one line:
 
 # Serialization:
-SerializationManager.serialize(jsonString, KEY_STRING, <POJO>.class);
+SerializationManager.serialize(jsonString, KEY_STRING, POJO_NAME.class);
   
 # Deserialization
-POJO pojo = SerializationManager.deserialize(KEY_STRING, <POJO>.class);
+POJO_NAME object = SerializationManager.deserialize(KEY_STRING, POJO_NAME.class);
