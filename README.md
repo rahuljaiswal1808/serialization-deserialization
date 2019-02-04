@@ -14,19 +14,19 @@ POJO_NAME object = SerializationManager.deserialize(KEY_STRING, POJO_NAME.class)
 
 # Set Shared Pref
 
-SharedPrefUtil.setStringPref(key, value);
-SharedPrefUtil.setBoolPref(key, value);
-SharedPrefUtil.setIntPref(key, value);
-SharedPrefUtil.setFloatPref(key, value);
-SharedPrefUtil.setLongPref(key, value);
-SharedPrefUtil.setStringSetPref(key, value);
+SharedPrefUtil.setStringPref(key, value);</BR>
+SharedPrefUtil.setBoolPref(key, value);</BR>
+SharedPrefUtil.setIntPref(key, value);</BR>
+SharedPrefUtil.setFloatPref(key, value);</BR>
+SharedPrefUtil.setLongPref(key, value);</BR>
+SharedPrefUtil.setStringSetPref(key, value);</BR>
 
 # Get Shared Pref
 
-SharedPrefUtil.getStringPref(key, defVal);
-SharedPrefUtil.getBoolPref(key, defVal);
-SharedPrefUtil.getIntPref(key, defVal);
-SharedPrefUtil.getFloatPref(key, defVal);
-SharedPrefUtil.getLongPref(key, defVal);
-SharedPrefUtil.getStringSetPref(key, defVal);
-SharedPrefUtil.getAll();
+SharedPrefUtil.getStringPref(key, defVal);</BR>
+SharedPrefUtil.getBoolPref(key, defVal);</BR>
+SharedPrefUtil.getIntPref(key, defVal);</BR>
+SharedPrefUtil.getFloatPref(key, defVal);</BR>
+SharedPrefUtil.getLongPref(key, defVal);</BR>
+SharedPrefUtil.getStringSetPref(key, defVal);</BR>
+SharedPrefUtil.getAll();</BR>
