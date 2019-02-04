@@ -3,7 +3,7 @@ import android.content.SharedPreferences;
 public class SharedPrefUtil {
 
     private static SharedPreferences getSharedPref() {
-        return MultiVpaApplication.getInstance().getSharedPreferences(Constants.APP_PREF, Constants.PRIVATE_MODE);
+        return YourApp.getInstance().getSharedPreferences(Constants.APP_PREF, Constants.PRIVATE_MODE);
     }
 
     private static SharedPreferences.Editor getEditor() {
